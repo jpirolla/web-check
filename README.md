@@ -5,7 +5,7 @@ Este é um projeto simples em Go para monitorar sites, verificar se estão onlin
 # Funcionalidades
 - Monitoramento de sites: O programa monitora uma lista de sites e verifica se estão acessíveis (status 200) a cada 5 segundos.
 - Exibição de Logs: O usuário pode consultar os logs de monitoramento, mostrando se o site estava online ou não em determinado momento.
-- Registro de Logs: Cada status de site é registrado em um arquivo de log com a data e hora do teste.
+- Registro de Logs: Cada status de site é registrado no arquivo de log com a data e hora do teste. Caso ainda não exista, o arquivo é criado automaticamente. 
 - Saudação personalizada: O programa solicita o nome do usuário e exibe uma saudação personalizada.
 
 ## Como Usar
